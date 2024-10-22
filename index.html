@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styling.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Anoks</title>
+</head>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Anok</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="ResumeAnok.pdf" download="ResumeAnok.pdf">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Anok Thomas</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm a <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Passionate software developer with a strong foundation in computer science, focused on building innovative and efficient solutions.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="ResumeAnok.pdf" download="ResumeAnok.pdf">
+                            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.instagram.com/anokanil_/" target="_blank"><i class="uil uil-instagram"></a></i></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/anok-anil-thomas-991124279/" target="_blank"><i class="uil uil-linkedin-alt"></a></i></div>
+                        <div class="icon"><a href="https://github.com/anok1904" target="_blank"></a><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./images/myimage.jpeg" alt="Your Name">
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I have a solid grasp of Java, Python, and C++, 
+                                along with experience in modern technologies 
+                                like Docker and Kubernetes, enabling me to develop 
+                                scalable and optimized solutions. Additionally, I have worked with 
+                                frameworks like Spring and Django, which allows me to build efficient back-end systems.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Development</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Python</span>
+                                <span>CSS</span>
+                                <span>Java</span>
+                                <span>JavaScript</span>
+                                <span>C</span>
+                                <span>C++</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>AI</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Modelling</span>
+                                <span>Predictive Analysis</span>
+                                <span>Generative AI</span>
+                                <span>RAG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Blog</h3>
+                        <label>25+ Technical Blogs in Medium</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>Member of top teams in Hackathons</label>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: anokanilthomas@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +91 9846728434</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Anok Thomas .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/anokanil_/" target="_blank"><i class="uil uil-instagram"></a></i></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/anok-anil-thomas-991124279/" target="_blank"><i class="uil uil-linkedin-alt"></a></i></div>
+                <div class="icon"><a href="https://github.com/anok1904" target="_blank"></a><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright © <a href="#home" style="text-decoration: none;">Anok Thomas</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="function.js"></script>
+</body>
+
+</html>
